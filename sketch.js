@@ -115,7 +115,6 @@ class waveFront{
     this.diameter += 2;
     this.a -= this.fadeSpeed;
   }
-
 }
 
 function displayTxt(){

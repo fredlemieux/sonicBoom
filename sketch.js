@@ -26,7 +26,7 @@ function setup() {
   imgJet = loadImage("./tornado-jet-plane.png");
   imgHappy = loadImage("./happy.png");
   imgSad = loadImage("./annoyed.png");
-  person = new Person(500, 290);
+  person = new Person(500, 260);
 }
 
 
@@ -78,8 +78,8 @@ class Person{
   constructor(x, y){
     this.x = x
     this.y = y
-    this.width = 50
-    this.height = 50
+    this.width = 40
+    this.height = 80
   }
 
   draw(){
